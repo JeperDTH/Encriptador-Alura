@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3F5FC;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background-color: #F3F5FC;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background: #F3F5FC;
+}
+
+.left{
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    float: left;
+
+}
+
+.right{
+    width: 30%;
+    border-radius: 24px;
+    float: right;
+    height: auto;
+    background: #F3F5FC;
+}
+
+
+.left-button {
+    float: left;
+    width: 60%;
+    height: 15%;
+    border-radius: 24px;
+    background: #F3F5FC;
+}
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.tittle{
+    float: inherit;
+    margin-left: 10%;
+}
+
+.text-input{
+    float: left;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline : none;
+    background-color: #F3F5FC;
+}
+
+#imgDer{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+#bt-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 75px;
+    background-color:#0A3871;
+}
+
+#bt-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 35px;
+    background-color:#E5E5E5;
+}
+
+#copiar{
+    margin-left: 30%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFD8;
+    border-radius: 24px;
+    display: none;
+}
